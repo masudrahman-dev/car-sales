@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    {% for task in tasks %}
+        <h2>{{ task.title }}</h2>
+        <p>{{ task.description }}</p>
+        <a href="">View {{ task_list}}</a>
+    {% endfor %}
+{% endblock %}
