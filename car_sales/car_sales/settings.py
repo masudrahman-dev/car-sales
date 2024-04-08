@@ -28,7 +28,6 @@ ALLOWED_HOSTS = []
 INTERNAL_IPS = ['127.0.0.1']
 
 # Application definition
-# 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
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
